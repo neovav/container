@@ -1,0 +1,22 @@
+{
+  "name": "neovav/Container",
+  "description": "PHP class universal container",
+  "keywords": ["container", "object", "params", "settings", "arguments", "php", "neovav"],
+  "homepage": "https://github.com/neovav/container",
+  "type": "library",
+  "license": "Apache-2.0",
+  "support": {
+    "issues": "https://github.com/neovav/container/issues",
+    "source": "https://github.com/neovav/container"
+  },
+  "minimum-stability": "beta",
+  "require": {
+    "php": "~7.0",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "neovav\\Containers\\": "src/"
+    }
+  }
+}
